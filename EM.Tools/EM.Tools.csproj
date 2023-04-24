@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NPOI" Version="2.6.0" />
+    <PackageReference Include="WindowsAPICodePack" Version="7.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="EM.Bases">
+      <HintPath>EM.Bases.dll</HintPath>
+    </Reference>
+    <Reference Include="EM.WpfBases">
+      <HintPath>EM.WpfBases.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
